@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "cfg": "mkdir config && echo 1000 >> config/sequence && mkdir uploads",
     "dev": "nodemon server.js"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
     "axios": "^0.27.2",
     "base-58": "^0.0.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1"
   }
 }

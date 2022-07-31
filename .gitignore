@@ -6,3 +6,6 @@ config/*
 
 # images
 uploads/
+
+# env
+.env
