@@ -1,0 +1,18 @@
+{
+  "name": "images-hosting-project-thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "base-58": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
